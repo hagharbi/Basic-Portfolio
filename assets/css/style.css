@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(https://coderwall-assets-0.s3.amazonaws.com/uploads/picture/file/1410/noise-bg.png)
+    background-image: url('../images/bodybackground.png')
 }
 
 .wrapperNav {
@@ -149,6 +149,52 @@ p {
     margin-top: -50px;
 
 }
+
+.contact-content {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.contact-form {
+    margin: 10px 5px;
+}
+
+.label {
+    font-size: 16px;
+    font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
+    color:gray;
+    margin-bottom: 4px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    
+}
+
+
+textarea {
+    width: 100%;
+    height: 200px;
+    border-color: #cccccc;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+    border: none;
+
+}
+
 
 footer {
     position: absolute;
