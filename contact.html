@@ -1,62 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Basic Portfolio </title>
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
-
+    <meta charset="UTF-8">
+    <title>Contact | Your Name</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-<header>
-    <nav>
-        <div class="wrapperNav">
-            <logo class="logo">Hamza Agharbi</logo>
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Hamza</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-    </nav>
-</header>
+    </header>
 
-<section>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
 
-    <div class="wrapper">
-        <div class="contact-content">
-            <h1 id="h1">Contact</h1>
-            <hr>
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
+            </form>
 
-            <div class="contact-form">
-                <div class="label"> Name </div>
-                <input type="text" name="Name" placeholder="John Smith">
-            </div>    
+        </section>
 
-            <div class="contact-form">
-                <div class="label"> Email </div>
-                <input type="text" name="Email" placeholder="example@gmail.com">
-            </div>
-
-            <div class="contact-form">
-                <div class="label"> Message </div>
-                <textarea name="Message" placeholder="John Smith"> </textarea>
-            </div> 
-
-            <div class="contact-form"> 
-                <button type="submit" name="submit">Submit</button>
-            </div>
-
-        </div>
     </div>
 
-</section>
-
-<footer>Copyright &copy 
-</footer>
-
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
 </body>
 
 </html>
